@@ -1,22 +1,22 @@
 {
-  "name": "chapter1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "name": "chapter-1",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node app.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "istanbul": "^0.4.5",
-    "mocha": "^3.1.2",
-    "supertest": "^2.0.0"
+    "start": "node app.js",
+    "test": "grunt test"
   },
   "dependencies": {
-    "connect": "^3.5.0",
-    "express": "^4.14.0",
-    "nconf": "^0.8.4",
-    "winston": "^2.2.0"
+    "express": "3.x",
+    "nconf": "~0.6.7",
+    "winston": "~0.7.1"
+  },
+  "devDependencies": {
+    "supertest": "~0.6.0",
+    "mocha": "~1.9.0",
+    "grunt": "~0.4.1",
+    "grunt-cafe-mocha": "~0.1.4",
+    "grunt-jscoverage": "0.0.3",
+    "grunt-env": "~0.4.0"
   }
 }

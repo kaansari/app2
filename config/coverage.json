@@ -4,6 +4,6 @@
   },
   "logger" : {
     "filename": "logs/run.log",
-    "level": "silly",
+    "level": "silly"
   }
 }
