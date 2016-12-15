@@ -5,5 +5,11 @@
   "logger" : {
     "filename": "logs/run.log",
     "level": "silly"
-  }
+  },
+    
+    "db":{
+        
+        "mongouri":"mongodb://localhost/test",
+        "port":27017
+    }
 }
