@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
-    "express": "3.x",
+    "body-parser": "^1.15.2",
+    "express": "^5.0.0-alpha.2",
+    "mongoose": "^4.7.4",
     "nconf": "~0.6.7",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
