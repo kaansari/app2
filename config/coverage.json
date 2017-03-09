@@ -9,7 +9,8 @@
     
     "db":{
         
-        "mongouri":"mongodb://localhost/test",
+        "mongouri":"mongodb://localhost/app2",
         "port":27017
     }
+
 }
