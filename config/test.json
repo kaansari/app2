@@ -5,5 +5,15 @@
   "logger" : {
     "filename": "logs/run.log",
     "level": "silly"
-  }
+  },
+
+    "db":{
+
+        "mongouri":"mongodb://localhost/app2",
+        "port":27017
+    },
+    "security":{
+        "secret":"appsecret"
+
+    }
 }

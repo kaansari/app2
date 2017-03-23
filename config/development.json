@@ -11,5 +11,9 @@
         
         "mongouri":"mongodb://localhost/app2",
         "port":27017
+    },
+    "security":{
+        "secret":"appsecret"
+
     }
 }
